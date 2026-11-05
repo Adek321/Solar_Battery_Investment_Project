@@ -427,5 +427,57 @@ Data Analyst | Business Intelligence & Financial Analytics
 This project demonstrates the application of analytical and financial modelling techniques to evaluate a real-world investment decision using historical operational data and forward-looking financial assumptions.
 
 ---
+---
+
+## 8. Key Results and Visualisations
+
+### 8.1 Energy Performance
+
+The battery storage model compared grid electricity purchases under two scenarios: without battery storage and with a 12.5 kWh battery.
+
+Key findings:
+- Total grid electricity purchases without battery: 15,639.36 kWh.
+- Total grid electricity purchases with battery: 12,137.10 kWh.
+- Grid electricity saved: 3,502.26 kWh.
+- Annual electricity cost savings: $595.38.
+
+### 8.2 Financial Investment Appraisal
+
+The project evaluated the investment under two electricity price inflation scenarios.
+
+| Financial Metric | Scenario 1 | Scenario 2 |
+|---|---:|---:|
+| Total 20-year savings | $17,729.27 | $21,072.64 |
+| Net Present Value (6%) | $2,430.74 | $3,741.72 |
+| Internal Rate of Return | 9.43% | 10.72% |
+
+### 8.3 Project Visualisations
+
+#### Average Hourly Solar Generation vs Electricity Usage
+
+![Average hourly solar generation vs electricity usage](outputs/figures/01_average_hourly_solar_vs_usage.png)
+
+#### Monthly Grid Purchases Comparison
+
+![Monthly grid purchases comparison](outputs/figures/02_monthly_grid_purchases_comparison.png)
+
+#### Monthly Solar Generation vs Electricity Usage
+
+![Monthly solar generation vs electricity usage](outputs/figures/03_monthly_solar_generation_vs_usage.png)
+
+#### 20-Year Annual Savings Projection
+
+![20-year annual savings projection](outputs/figures/04_20_year_annual_savings_projection.png)
+
+#### Investment Appraisal Comparison
+
+![Investment appraisal comparison](outputs/figures/05_investment_appraisal_comparison.png)
+
+### 8.4 Supporting Output Files
+
+- [Monthly Energy Summary](outputs/tables/monthly_energy_summary_2020.csv)
+- [Model Validation Summary](outputs/tables/model_validation_summary.csv)
+- [20-Year Savings Projection](outputs/financial_results/20_year_savings_projection_2022_2041.csv)
+- [Investment Appraisal Comparison](outputs/financial_results/investment_appraisal_comparison.csv)
 
 *Project developed as part of the Data Analyst Assessment – 2026.*
