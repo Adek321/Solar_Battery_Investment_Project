@@ -1,0 +1,13 @@
+Validation measure,Notebook result,Interpretation
+Hourly observations,"8,760",Expected 365 × 24 hourly records
+Missing electricity usage values,0,No missing usage values reported
+Negative electricity usage values,0,No negative usage values reported
+Negative grid purchases without battery,0,Validation check passed
+Negative grid purchases with battery,0,Validation check passed
+Hours battery increased grid purchases,0,Validation check passed
+Minimum battery charge,0.0 kWh,Within 0–12.5 kWh capacity
+Maximum battery charge,12.5 kWh,At stated battery capacity
+Grid purchases without battery,"15,639.36 kWh",2020 total
+Grid purchases with battery,"12,137.10 kWh",2020 total
+Grid electricity saved,"3,502.26 kWh",Difference between grid purchases
+Annual electricity cost savings,USD 595.38,Valued at USD 0.17/kWh
