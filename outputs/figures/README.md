@@ -1,4 +1,4 @@
-# Project Visualisations
+#Project Visualisations
 This folder contains the key charts generated from the solar battery investment analysis.
 - Average hourly solar generation and electricity usage.
 - Monthly solar generation and electricity consumption.
